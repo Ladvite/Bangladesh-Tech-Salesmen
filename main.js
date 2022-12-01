@@ -1,0 +1,1 @@
+alert("Advite is bad")

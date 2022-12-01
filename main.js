@@ -1,1 +1,1 @@
-alert("Advite is bad")
+alert("Advite is bad");

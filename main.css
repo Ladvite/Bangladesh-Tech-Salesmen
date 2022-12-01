@@ -1,0 +1,42 @@
+head {
+
+}
+body {
+	background-image: url("background1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: 180% 100%;
+  	background-position: center;
+	color: white;
+	text-align: center;
+}
+a {
+	background-position: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 69px;
+	padding-right: 69px;
+	background-color: #660606;
+	text-align: center;
+	align-self: center;
+	display: block;
+    margin: auto;
+    font-weight: bold;
+}
+#helpmeimdying {
+  width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 30;
+}​
+#helpmeimdying {
+  width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 10;
+}​

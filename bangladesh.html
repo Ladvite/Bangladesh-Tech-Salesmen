@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+        <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+		<title>Enumerate</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<header>
+		<div>
+			<ul>
+				<h3 class="logo" href="main.html"><a>Σ</a></h3>
+				<h3><a class="active" href="main.html">Home</a></h3>
+				<h3><a href="bangladesh.html">Calculator</a></h3>
+				<h3><a href="techsalesmen.html">Quizzes</a></h3>
+
+			</ul>
+		</div>
+		<br><br><br><br><br>
+	</header>
+	<body>
+        <div id="calculator" style="width: 600px; height: 400px;"></div>
+        <script>
+            var elt = document.getElementById('calculator');
+            var calculator = Desmos.GraphingCalculator(elt);
+            calculator.setExpression({ id: 'graph1', latex: 'y=x^2' });
+          </script>		
+		<p>Welcome to Enumerate. Our mission is to provide students and faculty-alike with free, open-source calculation software for convenience and to strengthen learned skills.</p>
+	</body>
+</html>

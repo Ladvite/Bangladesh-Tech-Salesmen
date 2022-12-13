@@ -1,4 +1,4 @@
-Created by Advaith Anand, Siddharth Sundar, Anish Venkatesalu (aka as the most useless addition to our team) 
+Created by Advaith Anand, Siddharth Sundar(aka as the most useless addition to our team) , Anish Venkatesalu (aka as the most useless addition to our team) 
 AP CSP Period 1
 Enumerate
 

@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Enumerate Calculator</title>
+    <head>
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+		<div>
+			<ul>
+				<h3 class="logo" href="main.html"><a>Σ</a></h3>
+				<h3><a class="active" href="main.html">Home</a></h3>
+				<h3><a href="EnumerateCalculator.css">Calculator</a></h3>
+				<h3><a href="#Algebra">Quizzes</a></h3>
+			</ul>
+		</div>
+        <br><br><br><br><br>
+        <title> Enumerate Calculator</title>
+		<link rel="stylesheet" href="EnumerateCalculator.css">
+	</head>
 </head>
 <body>
     <h1>Enumerate Calculator</h1>
@@ -21,19 +34,19 @@
     <script>
         function calculate() {
             // Get the values of the two numbers and the operator
-            var num1 = document.getElementById('num1').value;
-            var num2 = document.getElementById('num2').value;
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
             var operator = document.getElementById('operator').value;
 
             // Perform the calculation
             var result;
-            if (operator === '+') {
+            if (operator == '+') {
                 result = num1 + num2;
-            } else if (operator === '-') {
+            } else if (operator == '-') {
                 result = num1 - num2;
-            } else if (operator === '*') {
+            } else if (operator == '*') {
                 result = num1 * num2;
-            } else if (operator === '/') {
+            } else if (operator == '/') {
                 result = num1 / num2;
             }
 

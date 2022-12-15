@@ -38,6 +38,7 @@ a {
   font-size: 10;
 }​
 ul {
+  box-sizing: auto;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -87,4 +88,16 @@ h1 {
 }
 #imagerow1 {
   opacity: 0.5;
+}
+a{
+  font-family: 'comfortaa';
+  font-size: 14px;
+  text-align: center;
+  background-color: #38333328;
+}
+footer{
+  background-color: #38333328;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
 }

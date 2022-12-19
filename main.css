@@ -1,11 +1,26 @@
 
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+  height: 8px;
+  border-color: #273469;
+  background-color: rgba(4, 59, 92, 0.6);
+}
 body {
-	background-image: url("blue.jpeg");
-	background-repeat: no-repeat;
+	background-image: url("space.jpg");
+	background-repeat: repeat;
 	background-attachment: fixed;
-  	background-size: 180% 100%;
-  	background-position: center;
-	color: white;
+  background-position: center;
+  background-size: 100%;
+  color: white;
+}
+#banana {
+  text-align: center;
 }
 a {
 	background-position: center;
@@ -21,58 +36,45 @@ a {
     margin: auto;
     font-weight: bold;
 }
-#helpmeimdying {
-  width: 50%;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  font-size: 30;
-}​
-#helpmeimverymuchdying {
-  width: 50%;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  font-size: 10;
-}​
+
 ul {
   box-sizing: auto;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.116);
+  text-align: center;
+/*   background-color: rgba(255, 255, 255, 0.116); */
 }
 
 h3 {
   float: left;
   font-family: 'Comfortaa';
 }
-
 h3 a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 10px;
   text-decoration: none;
-  box-shadow: 5px solid rgba(0, 0, 0, 0.733);
+  box-shadow: 5px solid rgba(0, 0, 0, 0.500);
+  font-size: 20px;
 }
 h3 a:hover {
-  background-color: rgba(163, 203, 240, 0.13);
-  color: rgb(5, 226, 255);
+  background-color: rgba(163, 203, 240, 0.11);
+  color: rgba(20, 239, 255, 1);
 }
 p {
   font-family: 'Comfortaa';
   font-size: 16px;
   text-align: left;
-  margin-left: 42.69px;
-  margin-right: 42.69px;
+  background-color: rgba(36, 37, 50, 0.3);
+  color:white;
 }
 h1 {
   font-family: 'comfortaa';
   font-weight: bold;
+  color:white;
 }
 #logo {
   font-weight: bold;
@@ -84,7 +86,7 @@ h1 {
 }
 
 #row1 {
-  background: rgb(139, 139, 243);
+  background: rgb(160, 160, 248);
 }
 #imagerow1 {
   opacity: 0.5;
@@ -100,4 +102,33 @@ footer{
   margin-top: 10px;
   margin-bottom: 10px;
   
+}
+h4 {
+  text-align: center;
+  margin-left: 42.69px;
+  margin-right: 42.69px;
+  font-size: 18px;
+  font-family: 'comfortaa';
+  color:white;
+  background-color: rgba(140, 20, 252, 0.3); /*purple*/
+}
+label {
+  font-family: "comfortaa";
+}
+#banana {
+  background-color: rgba(245, 135, 0, 0.15);
+  background-size: 100%;
+}
+h5 {
+  text-align: center;
+  margin-left: 42.69px;
+  margin-right: 42.69px;
+  font-size: 18px;
+  font-family: 'comfortaa';
+}
+title {
+  background-color: rgba(246, 102, 19, 0.45);
+}
+depression {
+  background-color: rgba(160, 160, 248, 0.4);
 }

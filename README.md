@@ -7,9 +7,9 @@ Runs on a web server using php and sql
 
 Includes a homepage with a navigation bar (either horizontal or vertical) ✓
 
-Utilizes an entry form to record information into a database table
+Utilizes an entry form to record information into a database table ✓
 
-Utilizes a lookup form to extract information from the database and formats the info using php
+Utilizes a lookup form to extract information from the database and formats the info using php ✓
 
 The homepage must include both inline and internal CSS. ✓
 

@@ -1,4 +1,4 @@
-
+/* main file for css, pertaining to the index.html file, allowing for values of padding, text, color, etc. to be modified and styled respectively*/
 hr {
   display: block;
   margin-top: 0.5em;

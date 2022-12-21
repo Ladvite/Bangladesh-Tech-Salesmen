@@ -1,5 +1,5 @@
-
-function displayAnswer1() {
+//takes options and results with css styling to display the element component of the answer 
+function displayAnswer1() { //option 1 being checked (first radio box) outputting correct
   if (document.getElementById('option-1').checked) {
     document.getElementById('block-1').style.border = '3px solid limegreen'
     document.getElementById('result-1').style.color = 'limegreen'
@@ -22,7 +22,7 @@ function displayAnswer1() {
   }
 }
 
-
+//option 2 outputting incorrect, repeating for those than are incorrect pertaining to the questions in quiz.html
 function displayAnswer2() {
   if (document.getElementById('option-5').checked) {
     document.getElementById('block-5').style.border = '3px solid red'
